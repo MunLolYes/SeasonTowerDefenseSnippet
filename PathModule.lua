@@ -8,7 +8,7 @@ PATHMODULE
 Shared between client & server
 
 Handles path caching and position / orientation queries.
-I fancied a different style of math coding style (less spaces in codes for the little ones) to handle beziers overall.
+I fancied a different math coding style (less spaces in codes for the little ones) to handle beziers overall.
 
 --]]
 
