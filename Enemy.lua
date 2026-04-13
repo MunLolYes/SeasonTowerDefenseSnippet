@@ -5,6 +5,7 @@
 NOTE!
 This script depends on external modules (PathModule, NetworkUtilityModule - made by me, etc.) which handle path computation and network abstraction.
 For the sole purpose of a submission, this script demonstrates: enemy lifecycle / management, movement system, combat and attack scheduling, phase/state transitions.
+Movement is based on a precomputed path system aforementioned which converts distance traveled into **world position** using linear segments and quadratic bezier curves for smooth motion.
 
 --]]
 
