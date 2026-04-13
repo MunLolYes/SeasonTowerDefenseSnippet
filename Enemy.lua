@@ -1,6 +1,14 @@
--- Server handler for enemies, will not display more than this for the enemy system - to make it impossible to replicate unless you'd rewrite your own system. Feel free to learn from this code tho.
+--//  Server handler for enemies, will not display more than this for the enemy system - to make it impossible to replicate unless you'd rewrite your own system. Feel free to learn from this code tho.
 
--- @RealManMun 27th August 2025
+--[[
+
+NOTE!
+This script depends on external modules (PathModule, NetworkUtilityModule - made by me, etc.) which handle path computation and network abstraction.
+For the sole purpose of a submission, this script demonstrates: enemy lifecycle / management, movement system, combat and attack scheduling, phase/state transitions.
+
+--]]
+
+--//  @RealManMun 27th August 2025
 
 local Enemy = {}
 Enemy.Priority = 2
